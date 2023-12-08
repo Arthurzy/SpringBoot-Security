@@ -1,13 +1,14 @@
 package com.atguigu.springboot;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootSecurityApplicationTests {
+public class SpringBootSecurityApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
+		System.out.println("I am superman");
 	}
 
 }

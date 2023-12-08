@@ -18,6 +18,4 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter{
         // b.开启自动配置的登陆功能
         http.formLogin();
     }
-
-    
 }
